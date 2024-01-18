@@ -6,7 +6,7 @@ module.exports = {
     'LinkedIn': `<a href="https://www.linkedin.com/in/mariam-mk-alzaabi/">
                   <i class="fa-brands fa-linkedin-w fact-icon"></i>mariam-mk-alzaabi
                 </a>`,
-    'GitHub': `<a href="https://github.com/MariamAlz><i class="fa-brands fa-github fact-icon"></i>MariamAlz</a>`,
+    'GitHub': `<a href="https://github.com/MariamAlz"><i class="fa-brands fa-github fact-icon"></i>MariamAlz</a>`,
     'Email': '<a href="mailto:mariam.mk.alzaabi@gmail.com"><i class="fa fa-envelope fact-icon"></i>mariam.mk.alzaabi@gmail.com</a>'
   },
   skills: [
