@@ -1,16 +1,16 @@
 module.exports = {
   name: 'Mariam Alzaabi',
-  title: 'Poet, playwright and actor',
+  title: 'Computer Engineer',
   facts: {
-    'Residence': '<a href="https://www.google.com/maps/place/London,+UK/@51.5285582,-0.2416814,11z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5072178!4d-0.1275862"><i class="fa fa-home fact-icon"></i>London</a>',
-    'Wiki': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
-                  <i class="fa-brands fa-wikipedia-w fact-icon"></i>William_Shakespeare
+    'Address': '<a href="https://www.google.com/maps/place/Abu+Dhabi/@24.386741,54.3934687,11z/data=!3m1!4b1!4m6!3m5!1s0x3e5e440f723ef2b9:0xc7cc2e9341971108!8m2!3d24.453884!4d54.3773438!16zL20vMGd4ag"><i class="fa fa-home fact-icon"></i>Abu Dhabi</a>',
+    'LinkedIn': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
+                  <i class="fa-brands fa-wikipedia-w fact-icon"></i>mariam-mk-alzaabi
                 </a>`,
-    'Twitter': `<a href="https://twitter.com/shakespeare"><i class="fa-brands fa-twitter fact-icon"></i>Shakespeare</a>`,
-    'Email': '<a href="mailto:mariam.mk.alzaabi@gmail.com"><i class="fa fa-envelope fact-icon"></i>wil64@yahoo.com</a>'
+    'GitHub': `<a href="https://github.com/MariamAlz><i class="fa-brands fa-github fact-icon"></i>MariamAlz</a>`,
+    'Email': '<a href="mailto:mariam.mk.alzaabi@gmail.com"><i class="fa fa-envelope fact-icon"></i>mariam.mk.alzaabi@gmail.com</a>'
   },
   skills: [
-    ['Comedy', 100],
+    ['Test', 100],
     ['Love', 100],
     ['Theater', 100],
     ['Tragedy', 100],
