@@ -1,13 +1,12 @@
 module.exports = {
-  name: 'Dmytro Snisarenko',
-  title: 'Software Engineer',
-  baseUrl: 'https://sneas.github.io/cv/',
+  name: 'Mariam Alzaabi',
+  title: 'Computer Engineer',
+  baseUrl: 'https://mariamalz.github.io/cv/',
   facts: {
-    Residence: '<a href="https://goo.gl/maps/3JZUv4LVbG1bmtwN9"><i class="fa fa-home fact-icon"></i>Weesp, NL</a>',
-    LinkedIn: '<a href="https://www.linkedin.com/in/sneas"><i class="fab fa-linkedin fact-icon"></i>sneas</a>',
-    GitHub: '<a href="https://github.com/sneas"><i class="fab fa-github fact-icon"></i>sneas</a>',
-    Mobile: '<a href="tel:+31645223717"><i class="fa fa-phone fact-icon"></i>+31645223717</a>',
-    Email: '<a href="mailto:dmytro@sneas.io"><i class="fa fa-envelope fact-icon"></i>dmytro@sneas.io</a>',
+    Residence: '<a href="https://goo.gl/maps/3JZUv4LVbG1bmtwN9"><i class="fa fa-home fact-icon"></i>Abu Dhabi, UAE</a>',
+    LinkedIn: '<a href="https://www.linkedin.com/in/sneas"><i class="fab fa-linkedin fact-icon"></i>mariam-mk-alzaabi</a>',
+    GitHub: '<a href="https://github.com/sneas"><i class="fab fa-github fact-icon"></i>MariamAlz</a>',
+    Email: '<a href="mailto:dmytro@sneas.io"><i class="fa fa-envelope fact-icon"></i>mariam.mk.alzaabi@gmail.com</a>',
   },
   skills: [
     ['Typescript', 100],
@@ -29,10 +28,10 @@ module.exports = {
   ],
   positions: [
     {
-      company: 'Vocably',
-      location: 'Weesp, NL',
-      title: 'Founder, Software Engineer',
-      period: 'Nov 2021 - Present',
+      company: 'Khalifa University',
+      location: 'Abu Dhabi, UAE',
+      title: 'Graduate Research /Teaching Assistant',
+      period: 'Jan 2022 - Present',
       skills: ['AWS', 'GCP', 'Terraform', 'NodeJS', 'React Native', 'Angular', 'OAuth', 'Browser Extensions', 'Typescript'],
       contents: `
 [Vocably](https://vocably.pro) is a platform (extension and an app) that helps users to look up new words while surfing the web and study those words as flashcards on mobile.
@@ -49,10 +48,10 @@ As a founder and the only developer of Vocably, I'm responsible for:
 `
     },
     {
-      company: 'Athyria',
-      location: 'Seattle, USA',
-      title: 'Software Engineer',
-      period: 'Feb 2021 - Nov 2021',
+      company: 'Children\'s National Hospital',
+      location: 'Washington, D.C., USA',
+      title: 'Intern',
+      period: 'Jun 2021 - Aug 2021',
       skills: ['AWS', 'Terraform', 'NodeJS', 'Angular', 'OAuth'],
       contents: `
 Completed two projects for [John Deere](https://www.deere.com/).
