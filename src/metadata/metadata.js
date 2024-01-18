@@ -16,12 +16,6 @@ module.exports = {
     ['NLP', 100],
     ['Computer Vision', 100],
     ['Embedded Systems', 60],
-    ['Artificial Intelligence', 100],
-    ['Data Science', 100],
-    ['Python', 100],
-    ['NLP', 100],
-    ['Computer Vision', 100],
-    ['Embedded Systems', 60],
   ],
   positions: [
     {
