@@ -2,11 +2,11 @@ module.exports = {
   name: 'Mariam Alzaabi',
   title: 'Computer Engineer',
   facts: {
-    'Address': '<a href="https://www.google.com/maps/place/Abu+Dhabi/@24.386741,54.3934687,11z/data=!3m1!4b1!4m6!3m5!1s0x3e5e440f723ef2b9:0xc7cc2e9341971108!8m2!3d24.453884!4d54.3773438!16zL20vMGd4ag"><i class="fa fa-home fact-icon"></i>Abu Dhabi</a>',
+    'Address': '<a href="https://www.google.com/maps/place/Abu+Dhabi/@24.386741,54.3934687,11z/data=!3m1!4b1!4m6!3m5!1s0x3e5e440f723ef2b9:0xc7cc2e9341971108!8m2!3d24.453884!4d54.3773438!16zL20vMGd4ag"><i class="fa fa-home fact-icon"></i>Abu Dhabi, UAE</a>',
     'LinkedIn': `<a href="https://www.linkedin.com/in/mariam-mk-alzaabi/">
-                  <i class="fa-brands fa-linkedin-w fact-icon"></i>mariam-mk-alzaabi
+                  <i class="fab fa-linkedin fact-icon"></i>mariam-mk-alzaabi
                 </a>`,
-    'GitHub': `<a href="https://github.com/MariamAlz"><i class="fa-brands fa-github fact-icon"></i>MariamAlz</a>`,
+    'GitHub': `<a href="https://github.com/MariamAlz"><i class="fab fa-github fact-icon"></i>MariamAlz</a>`,
     'Email': '<a href="mailto:mariam.mk.alzaabi@gmail.com"><i class="fa fa-envelope fact-icon"></i>mariam.mk.alzaabi@gmail.com</a>'
   },
   positions: [
