@@ -1,5 +1,5 @@
 module.exports = {
-  name: 'William Shakespeare',
+  name: 'Mariam Alzaabi',
   title: 'Poet, playwright and actor',
   facts: {
     'Residence': '<a href="https://www.google.com/maps/place/London,+UK/@51.5285582,-0.2416814,11z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5072178!4d-0.1275862"><i class="fa fa-home fact-icon"></i>London</a>',
@@ -7,7 +7,7 @@ module.exports = {
                   <i class="fa-brands fa-wikipedia-w fact-icon"></i>William_Shakespeare
                 </a>`,
     'Twitter': `<a href="https://twitter.com/shakespeare"><i class="fa-brands fa-twitter fact-icon"></i>Shakespeare</a>`,
-    'Email': '<a href="mailto:wil64@yahoo.com"><i class="fa fa-envelope fact-icon"></i>wil64@yahoo.com</a>'
+    'Email': '<a href="mailto:mariam.mk.alzaabi@gmail.com"><i class="fa fa-envelope fact-icon"></i>wil64@yahoo.com</a>'
   },
   skills: [
     ['Comedy', 100],
