@@ -1,9 +1,28 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132328250-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-132328250-1');
+    </script>
+
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ name }}. {{ title }}</title>
+    <meta name="description" content="Full-stack engineer specialized in AWS and JS/TS." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{ name }}. {{ title }}" />
+    <meta property="og:description" content="Full-stack engineer specialized in AWS and JS/TS." />
+    <meta property="og:url" content="https://sneas.github.io/cv" />
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,6 +34,45 @@
 </head>
 <body>
 <div class="container page">
+    <a href="https://github.com/sneas/cv-project" class="github-corner screen" aria-label="View source on Github">
+        <svg width="80" height="80" viewBox="0 0 250 250"
+             style="fill:#deeef9; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true">
+            <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+            <path
+                d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+                fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+            <path
+                d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+                fill="currentColor" class="octo-body"></path>
+        </svg>
+    </a>
+    <style>
+        .github-corner:hover .octo-arm {
+            animation: octocat-wave 560ms ease-in-out
+        }
+
+        @keyframes octocat-wave {
+            0%, 100% {
+                transform: rotate(0)
+            }
+            20%, 60% {
+                transform: rotate(-25deg)
+            }
+            40%, 80% {
+                transform: rotate(10deg)
+            }
+        }
+
+        @media (max-width: 500px) {
+            .github-corner:hover .octo-arm {
+                animation: none
+            }
+
+            .github-corner .octo-arm {
+                animation: octocat-wave 560ms ease-in-out
+            }
+        }
+    </style>
     <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
         <div class="row">
             <div class="col-print-6 col-12 col-md-4 d-flex justify-content-between flex-column">
@@ -34,7 +92,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-4 col-md-3 col-lg-2 offset-lg-1 d-none d-md-block align-md-self-center text-center">
+            <div class="col-4 col-md-3 col-lg-2 offset-lg-1 d-none d-md-block align-self-lg-center">
                 <img src="photo.jpeg" class="rounded-circle img-fluid" alt="Personal photo">
             </div>
             <div class="col-print-6 col-12 col-md-5 offset-lg-1 col-lg-4">
@@ -51,55 +109,120 @@
     </div>
 
     <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
-        English poet, playwright and actor, widely regarded as the greatest writer in the English language
-        and the world's pre-eminent dramatist. Often called England's national poet and the "Bard of Avon".
-        My extant work is including collaborations, consist of approximately 38 plays, 154 sonnets,
-        two long narrative poems and a few other verses, some of uncertain authorship.
+        I'm a full-stack developer with more than 15 years of experience. The setup for my last three projects happens to be AWS / Serverless / Lambda / NodeJS / Typescript for the backend, Angular / React / VanillaJS / WebComponents for the front end, Cypress / Jest / Endtest for testing, and CI/CD / Terraform for ongoing automation.
     </div>
 
     <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
         <h2 class="mb-4">Professional Experience</h2>
         {{#each positions}}
-        <div class="row d-block d-md-flex{{#unless @last}} mb-5{{/unless}}">
-            <div class="col-md-2 pt-1">
-                {{ period }}
-            </div>
-            <div class="col-md-10">
-                <h3 class="fs-4 fw-normal">{{ title }}</h3>
+            <div class="row d-block d-md-flex{{#unless @last}} mb-5{{/unless}}">
+                <div class="col-md-2 pt-1">
+                    {{ period }}
+                </div>
+                <div class="col-md-10">
+                    <h3 class="fs-4 fw-normal">{{ company }},
+                        <small>{{ location }}</small>
+                    </h3>
+                    <p>{{ title }}</p>
 
-                <div>{{{markdown contents }}}</div>
+                    <div>{{{markdown contents }}}</div>
 
-                <p>
-                    {{#each skills }}
-                    <span class="badge text-body border border-1">{{ this }}</span>
-                    {{/each}}
-                </p>
+                    <p>
+                        {{#each skills }}
+                        <span class="badge text-body border border-1">{{ this }}</span>
+                        {{/each}}
+                    </p>
+
+                    {{#if review}}
+                    <p>
+                        Reference: <a href="{{ ../baseUrl }}{{ review.file }}">{{ review.author }}</a>
+                    </p>
+                    {{/if}}
+                </div>
             </div>
-        </div>
         {{/each}}
     </div>
 
     <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
+        <h2 class="mb-4">Career insights</h2>
+        <dl class="row d-block d-md-flex mb-0">
+            <dt class="col-md-2">2010 &ndash; 2012</dt>
+            <dd class="col-md-10 mb-3">
+                Full stack freelancer (PHP, JS, SQL, Linux, CI/CD).<br/>
+                Successfully completed multiple small and middle-sized projects.
+                Received <a href="{{ baseUrl }}reviews.png">positive feedback</a> from all of my clients.
+                Reviews are available <a href="https://www.upwork.com/o/profiles/users/_~01752134695731685e/">here</a>.
+                Must be registered user to read all the reviews. Sorry.
+            </dd>
+
+            <dt class="col-md-2">
+                2005 &ndash; 2010
+            </dt>
+            <dd class="col-md-10 mb-3">
+                Junior/middle full-stack developer (PHP, JS, SQL, Linux).<br/>
+                Significant experience was acquired while working on <a href="https://www.gamewatcher.com/">GameWatcher</a>
+                and <a href="http://www.recordnerd.com">RecordNerd.com</a>.
+            </dd>
+
+            <dt class="col-md-2">2000 &ndash; 2003</dt>
+            <dd class="col-md-10">
+                Worked as visual designer for a local TV channel. Acquired passion for objects composition, color matching
+                and animation.
+            </dd>
+
+        </dl>
+    </div>
+
+    <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
         <h2 class="mb-4">Education</h2>
-        <div>Master of Science in Computer Science at Khalifa University [Jan 2022 - present]</div>
-        <div>Bachelor of Science in Computer Engineering at Khalifa University [Aug 2016 - Dec 2021]</div>
+        <p>Masters degree in Computer Engineering. Sevastopol State Technical University [2002 – 2007]</p>
+
+        <h2>Certifications</h2>
+        <ul class="mb-0">
+            <li><i class="fab fa-aws"></i> <a
+                href="https://www.credly.com/badges/a1fe082b-cf1e-4f58-b59d-d8e16e492969/public_url">AWS
+                Certified Solutions Architect - Associate</a> - Jan 18, 2019
+            </li>
+            <li><i class="fas fa-redo"></i> <a href="https://www.scrum.org/user/323673">Professional Scrum Master I</a> -
+                Apr 2, 2018
+            </li>
+            <li>
+                <i class="fab fa-react"></i> <a href="https://confirm.udacity.com/RMTJQHYX">React Nanodegree</a> - Dec 27,
+                2017
+            </li>
+            <li><i class="fab fa-php"></i> Zend Certified Engineer <span class="badge text-body border border-1">PHP 5.3</span> - Jan
+                24, 2011
+            </li>
+        </ul>
     </div>
 
-    <h2 class="mb-4">Additional Experience</h2>
+    <div>
+        <h2 class="mb-4">Additional experience</h2>
 
-    {{#each experience}}
-    <div class="mb-4">
-        <h3 class="fs-4 fw-normal">{{ header }}</h3>
+        <ul>
+            <li>
+                Some of my interests and hobbies revolve around GitHub and open source community.<br/>
+                A complete list of side/hobby projects: <a href="https://github.com/sneas">https://github.com/sneas</a>
+            </li>
+            <li>
+                (Not so)Active member of developer communities
 
-        {{{markdown contents }}}
+                <ul>
+                    <li><a href="https://toster.ru/user/search">toster.ru/user/search</a> (Russian speaking community)</li>
+                    <li><a href="https://stackoverflow.com/users/379949/sneas">stackoverflow.com/users/379949/sneas</a></li>
+                    <li><a
+                        href="https://ru.stackoverflow.com/users/272582/sneas">ru.stackoverflow.com/users/272582/sneas</a>
+                        (Russian speaking community)
+                    </li>
+                </ul>
 
-        <div>
-            {{#each skills }}
-            <span class="badge text-body border border-1">{{ this }}</span>
-            {{/each}}
-        </div>
+                <br/>
+                Categories: <span class="badge text-body border border-1">Javascript</span> <span
+                class="badge text-body border border-1">Angular</span> <span class="badge text-body border border-1">React</span> <span
+                class="badge text-body border border-1">Typescript</span>
+            </li>
+        </ul>
     </div>
-    {{/each}}
 </div>
 </body>
 </html>
