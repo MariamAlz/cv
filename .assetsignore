@@ -1,0 +1,7 @@
+.git
+.github
+.assetsignore
+wrangler.jsonc
+README.md
+CNAME
+node_modules

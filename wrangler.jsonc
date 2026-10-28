@@ -1,0 +1,11 @@
+// Static site served by Cloudflare Workers (static assets). Deploy: npx wrangler deploy
+{
+  "name": "cv",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": ".",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "none"
+  },
+  "workers_dev": true
+}
